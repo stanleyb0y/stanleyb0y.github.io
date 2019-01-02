@@ -1,15 +1,10 @@
 <script>
-var ss = "";for(var obj in window){ss+=obj;ss+="\n";}alert(ss);
-ss="";
-for(var obj in window.hwop)
-{
-ss+=obj;
-ss+="\n";
-}
-alert(ss);
-alert("123");
-if(window.vmallAndroid)
+var test=function (){
+  if(window.vmallAndroid)
 {
   alert("456");
 }
+};
+setTimeout(test,10);
+document.location.href="https://www.vmall.com";
 </script>
