@@ -2,7 +2,7 @@
 hack for fun!
 <script>
 var ss = "";
-for(var obj in window){
+for(var obj in window.lives){
 ss+=obj;
 ss+="\n";
 
@@ -10,7 +10,9 @@ ss+="\n";
 }
 alert(ss);
 
-
+alert(window.lives.getAccount());
+alert(window.lives.getJsEnv());
+alert(window.lives.getTokenVerifyUrl());
 ss="";
 getLocationConstant();
 function getLocationConstant()
